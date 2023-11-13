@@ -15,7 +15,7 @@ export class EditServerComponent implements OnInit {
 
   constructor(
     private serversService: ServersService,
-    private route: ActivatedRoute
+    private route: ActivatedRoute,
   ) {}
 
   ngOnInit() {
